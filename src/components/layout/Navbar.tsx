@@ -34,7 +34,7 @@ export function Navbar() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
-      className={`fixed top-4 left-0 right-0 mx-auto w-[90%] max-w-7xl z-50 transition-all duration-300 rounded-full border border-white/40 shadow-[0_8px_30px_rgb(0,0,0,0.06)] backdrop-blur-xl bg-gradient-to-l from-blue-100/90 to-white/90 dark:from-blue-950/80 dark:to-slate-900/80 ${
+      className={`fixed top-4 left-4 right-4 md:left-0 md:right-0 md:mx-auto md:w-[90%] w-auto max-w-7xl z-50 transition-all duration-300 rounded-full border border-white/40 shadow-[0_8px_30px_rgb(0,0,0,0.06)] backdrop-blur-xl bg-gradient-to-l from-blue-100/90 to-white/90 dark:from-blue-950/80 dark:to-slate-900/80 ${
         isScrolled
           ? "py-2 shadow-lg"
           : "py-3"

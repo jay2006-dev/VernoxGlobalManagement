@@ -145,48 +145,102 @@ export default function AboutPage() {
       </section>
 
       {/* Chapter 3: Our Compass */}
-      <section className="py-32 bg-[#fafafa] relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-purple-100/50 rounded-full blur-3xl -z-10 translate-x-1/2 -translate-y-1/2"></div>
-        <div className="container mx-auto px-4 md:px-6 lg:px-8 max-w-6xl relative z-10">
-          <div className="text-center mb-20 max-w-3xl mx-auto">
+      <section className="relative overflow-hidden flex flex-col">
+        {/* Intro */}
+        <div className="py-16 md:py-32 bg-white">
+          <div className="container mx-auto px-4 md:px-6 lg:px-8 max-w-4xl text-center">
             <span className="text-sm font-bold tracking-widest text-primary uppercase block mb-4">Chapter III: Our Compass</span>
-            <h2 className="text-4xl md:text-6xl font-bold font-heading text-gray-900 mb-6">Guided by Purpose</h2>
-            <p className="text-xl text-gray-600 font-medium leading-relaxed">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold font-heading text-gray-900 mb-6">Guided by Purpose</h2>
+            <p className="text-lg md:text-xl text-gray-600 font-medium leading-relaxed">
               Every step of our journey has been directed by a steadfast commitment to our core philosophies. This is what drives us forward.
             </p>
           </div>
+        </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-white p-10 md:p-12 rounded-[2.5rem] shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300 group">
-              <div className="w-16 h-16 rounded-2xl bg-blue-50 text-blue-600 flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
-                <Target className="w-8 h-8" />
+        {/* Story 1: Our Mission */}
+        <div className="py-16 md:py-32 bg-blue-50/60">
+          <div className="container mx-auto px-4 md:px-6 lg:px-8 max-w-7xl">
+            <div className="flex flex-col md:flex-row items-center gap-8 md:gap-24">
+              <div className="w-full md:w-1/2 space-y-6 md:space-y-8">
+                <div className="inline-flex items-center gap-3 text-blue-700 font-bold text-xs md:text-sm uppercase tracking-widest bg-blue-100/50 px-4 py-2 md:px-6 md:py-2.5 rounded-full">
+                  <Target className="w-4 h-4 md:w-5 md:h-5" /> Our Mission
+                </div>
+                <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-heading text-gray-900 leading-[1.1] tracking-tight">Empowering growth <br className="hidden lg:block" /> and innovation.</h3>
+                <p className="text-lg md:text-xl text-gray-600 leading-relaxed font-medium max-w-lg">
+                  We empower enterprises to achieve unprecedented growth through strategic excellence and relentless innovation. It's not just about reaching targets; it's about setting new benchmarks.
+                </p>
               </div>
-              <h3 className="text-3xl font-bold font-heading text-gray-900 mb-4">Our Mission</h3>
-              <p className="text-gray-600 text-lg leading-relaxed font-medium">To empower enterprises to achieve unprecedented growth through strategic excellence and relentless innovation.</p>
-            </div>
-            
-            <div className="bg-white p-10 md:p-12 rounded-[2.5rem] shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300 group">
-              <div className="w-16 h-16 rounded-2xl bg-purple-50 text-purple-600 flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
-                <Eye className="w-8 h-8" />
+              <div className="w-full md:w-1/2">
+                <div className="relative rounded-[1.5rem] md:rounded-[3rem] overflow-hidden shadow-2xl aspect-[4/3] group border-4 md:border-[8px] border-white/50">
+                  <Image sizes="(max-width: 768px) 100vw, 50vw" src="https://res.cloudinary.com/dunvmtqha/image/upload/Screenshot_2026-06-29_175452_pqrmru.png" alt="Our Mission" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
+                </div>
               </div>
-              <h3 className="text-3xl font-bold font-heading text-gray-900 mb-4">Our Vision</h3>
-              <p className="text-gray-600 text-lg leading-relaxed font-medium">To be the globally recognized benchmark for sales and marketing consulting, setting the standard for the industry.</p>
             </div>
+          </div>
+        </div>
 
-            <div className="bg-white p-10 md:p-12 rounded-[2.5rem] shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300 group">
-              <div className="w-16 h-16 rounded-2xl bg-green-50 text-green-600 flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
-                <Shield className="w-8 h-8" />
+        {/* Story 2: Our Vision */}
+        <div className="py-16 md:py-32 bg-purple-50/60">
+          <div className="container mx-auto px-4 md:px-6 lg:px-8 max-w-7xl">
+            <div className="flex flex-col md:flex-row-reverse items-center gap-8 md:gap-24">
+              <div className="w-full md:w-1/2 space-y-6 md:space-y-8">
+                <div className="inline-flex items-center gap-3 text-purple-700 font-bold text-xs md:text-sm uppercase tracking-widest bg-purple-100/50 px-4 py-2 md:px-6 md:py-2.5 rounded-full">
+                  <Eye className="w-4 h-4 md:w-5 md:h-5" /> Our Vision
+                </div>
+                <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-heading text-gray-900 leading-[1.1] tracking-tight">A globally recognized <br className="hidden lg:block" /> benchmark.</h3>
+                <p className="text-lg md:text-xl text-gray-600 leading-relaxed font-medium max-w-lg">
+                  To be the globally recognized benchmark for sales and marketing consulting, setting the standard for the industry across borders and redefining what is possible.
+                </p>
               </div>
-              <h3 className="text-3xl font-bold font-heading text-gray-900 mb-4">Unwavering Integrity</h3>
-              <p className="text-gray-600 text-lg leading-relaxed font-medium">We believe true success is built on trust. We operate with absolute transparency and ethical standards in everything we do.</p>
+              <div className="w-full md:w-1/2">
+                <div className="relative rounded-[1.5rem] md:rounded-[3rem] overflow-hidden shadow-2xl aspect-[4/3] group border-4 md:border-[8px] border-white/50">
+                  <Image sizes="(max-width: 768px) 100vw, 50vw" src="https://res.cloudinary.com/dunvmtqha/image/upload/Screenshot_2026-06-29_175639_juo51o.png" alt="Our Vision" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
+                </div>
+              </div>
             </div>
+          </div>
+        </div>
 
-            <div className="bg-white p-10 md:p-12 rounded-[2.5rem] shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300 group">
-              <div className="w-16 h-16 rounded-2xl bg-orange-50 text-orange-600 flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
-                <Award className="w-8 h-8" />
+        {/* Story 3: Unwavering Integrity */}
+        <div className="py-16 md:py-32 bg-green-50/60">
+          <div className="container mx-auto px-4 md:px-6 lg:px-8 max-w-7xl">
+            <div className="flex flex-col md:flex-row items-center gap-8 md:gap-24">
+              <div className="w-full md:w-1/2 space-y-6 md:space-y-8">
+                <div className="inline-flex items-center gap-3 text-green-700 font-bold text-xs md:text-sm uppercase tracking-widest bg-green-100/50 px-4 py-2 md:px-6 md:py-2.5 rounded-full">
+                  <Shield className="w-4 h-4 md:w-5 md:h-5" /> Unwavering Integrity
+                </div>
+                <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-heading text-gray-900 leading-[1.1] tracking-tight">Trust built on <br className="hidden lg:block" /> transparency.</h3>
+                <p className="text-lg md:text-xl text-gray-600 leading-relaxed font-medium max-w-lg">
+                  We believe true success is built on trust. We operate with absolute transparency and ethical standards in everything we do, forging partnerships that stand the test of time.
+                </p>
               </div>
-              <h3 className="text-3xl font-bold font-heading text-gray-900 mb-4">Relentless Excellence</h3>
-              <p className="text-gray-600 text-lg leading-relaxed font-medium">Good is the enemy of great. We commit to delivering the absolute highest quality of service and results, without compromise.</p>
+              <div className="w-full md:w-1/2">
+                <div className="relative rounded-[1.5rem] md:rounded-[3rem] overflow-hidden shadow-2xl aspect-[4/3] group border-4 md:border-[8px] border-white/50">
+                  <Image sizes="(max-width: 768px) 100vw, 50vw" src="https://res.cloudinary.com/dunvmtqha/image/upload/Screenshot_2026-06-29_175830_rdjbw0.png" alt="Unwavering Integrity" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Story 4: Relentless Excellence */}
+        <div className="py-16 md:py-32 bg-orange-50/60">
+          <div className="container mx-auto px-4 md:px-6 lg:px-8 max-w-7xl">
+            <div className="flex flex-col md:flex-row-reverse items-center gap-8 md:gap-24">
+              <div className="w-full md:w-1/2 space-y-6 md:space-y-8">
+                <div className="inline-flex items-center gap-3 text-orange-700 font-bold text-xs md:text-sm uppercase tracking-widest bg-orange-100/50 px-4 py-2 md:px-6 md:py-2.5 rounded-full">
+                  <Award className="w-4 h-4 md:w-5 md:h-5" /> Relentless Excellence
+                </div>
+                <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-heading text-gray-900 leading-[1.1] tracking-tight">Compromise is not <br className="hidden lg:block" /> an option.</h3>
+                <p className="text-lg md:text-xl text-gray-600 leading-relaxed font-medium max-w-lg">
+                  Good is the enemy of great. We commit to delivering the absolute highest quality of service and results, demanding more of ourselves so we can deliver the extraordinary.
+                </p>
+              </div>
+              <div className="w-full md:w-1/2">
+                <div className="relative rounded-[1.5rem] md:rounded-[3rem] overflow-hidden shadow-2xl aspect-[4/3] group border-4 md:border-[8px] border-white/50">
+                  <Image sizes="(max-width: 768px) 100vw, 50vw" src="https://res.cloudinary.com/dunvmtqha/image/upload/Screenshot_2026-06-29_180030_f2baj0.png" alt="Relentless Excellence" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
+                </div>
+              </div>
             </div>
           </div>
         </div>

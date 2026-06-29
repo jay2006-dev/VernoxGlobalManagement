@@ -33,7 +33,7 @@ export function IndustriesPreview() {
           </p>
         </div>
 
-        <div className="flex flex-col md:flex-row h-[600px] md:h-[500px] gap-4 w-full">
+        <div className="flex flex-col md:flex-row h-[750px] md:h-[500px] gap-4 w-full">
           {industries.map((industry) => {
             const isActive = active === industry.id;
             const isDarkColor = industry.id === 4; // Accent is light yellow
@@ -55,9 +55,9 @@ export function IndustriesPreview() {
                 
                 <motion.div 
                   layout
-                  className={`absolute top-6 left-6 w-14 h-14 rounded-full flex items-center justify-center bg-white/10 backdrop-blur-md border border-white/20`}
+                  className={`absolute top-4 left-4 md:top-6 md:left-6 w-10 h-10 md:w-14 md:h-14 rounded-full flex items-center justify-center bg-white/10 backdrop-blur-md border border-white/20 ${!isActive ? 'hidden md:flex' : 'flex'}`}
                 >
-                  <industry.icon className={`w-6 h-6 ${isDarkColor ? 'text-[#0B1F3A]' : 'text-white'}`} />
+                  <industry.icon className={`w-5 h-5 md:w-6 md:h-6 ${isDarkColor ? 'text-[#0B1F3A]' : 'text-white'}`} />
                 </motion.div>
 
                 <div className="p-6 md:p-8 mt-auto z-10 relative h-full flex flex-col justify-end">
@@ -85,9 +85,9 @@ export function IndustriesPreview() {
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
-                        className={`flex flex-col items-center justify-end h-full w-full pb-4 ${isDarkColor ? 'text-[#0B1F3A]' : 'text-white'}`}
+                        className={`flex flex-col items-start md:items-center justify-center md:justify-end h-full w-full px-6 md:px-0 pb-0 md:pb-4 ${isDarkColor ? 'text-[#0B1F3A]' : 'text-white'}`}
                       >
-                        <h3 className="font-bold tracking-[0.3em] uppercase text-sm transform md:-rotate-90 md:-translate-y-20 whitespace-nowrap opacity-70 group-hover:opacity-100 transition-opacity">{industry.name}</h3>
+                        <h3 className="font-bold tracking-[0.2em] md:tracking-[0.3em] uppercase text-sm transform md:-rotate-90 md:-translate-y-20 whitespace-nowrap opacity-70 group-hover:opacity-100 transition-opacity">{industry.name}</h3>
                       </motion.div>
                     )}
                   </AnimatePresence>
