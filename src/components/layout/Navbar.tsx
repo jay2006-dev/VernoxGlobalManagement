@@ -34,17 +34,17 @@ export function Navbar() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
-      className={`fixed top-4 left-4 right-4 md:left-0 md:right-0 md:mx-auto md:w-[90%] w-auto max-w-7xl z-50 transition-all duration-300 rounded-full border border-white/40 shadow-[0_8px_30px_rgb(0,0,0,0.06)] backdrop-blur-xl bg-gradient-to-l from-blue-100/90 to-white/90 dark:from-blue-950/80 dark:to-slate-900/80 ${
+      className={`fixed top-4 inset-x-4 md:inset-x-0 md:mx-auto md:w-[90%] max-w-7xl z-50 transition-all duration-300 rounded-full border border-white/40 shadow-[0_8px_30px_rgb(0,0,0,0.06)] backdrop-blur-xl bg-gradient-to-l from-blue-100/90 to-white/90 dark:from-blue-950/80 dark:to-slate-900/80 ${
         isScrolled
           ? "py-2 shadow-lg"
           : "py-3"
       }`}
     >
-      <div className="container mx-auto px-4 md:px-6 lg:px-8">
-        <div className="flex items-center justify-between">
+      <div className="w-full mx-auto px-4 md:px-6 lg:px-8">
+        <div className="flex items-center justify-between min-w-0">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <Image src="/logos/vornex_logo.png" alt="Vornex Global" width={160} height={45} className="h-10 w-auto rounded-full object-cover" priority />
+            <Image src="/logos/vornex_logo.png" alt="Vornex Global" width={160} height={45} className="h-8 md:h-10 w-auto max-w-[120px] md:max-w-[160px] rounded-full object-cover shrink-0" priority />
           </Link>
 
           {/* Desktop Nav */}
