@@ -172,7 +172,7 @@ export default function AboutPage() {
               </div>
               <div className="w-full md:w-1/2">
                 <div className="relative rounded-[1.5rem] md:rounded-[3rem] overflow-hidden shadow-2xl aspect-[4/3] group border-4 md:border-[8px] border-white/50">
-                  <Image sizes="(max-width: 768px) 100vw, 50vw" src="https://res.cloudinary.com/dunvmtqha/image/upload/Screenshot_2026-06-29_175452_pqrmru.png" alt="Our Mission" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
+                  <Image sizes="(max-width: 768px) 100vw, 50vw" src="https://res.cloudinary.com/dunvmtqha/image/upload/8b0d5e06-6406-430c-b32e-f004ac93be22_xl6uvx.jpg" alt="Our Mission" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
                 </div>
               </div>
             </div>
@@ -194,7 +194,7 @@ export default function AboutPage() {
               </div>
               <div className="w-full md:w-1/2">
                 <div className="relative rounded-[1.5rem] md:rounded-[3rem] overflow-hidden shadow-2xl aspect-[4/3] group border-4 md:border-[8px] border-white/50">
-                  <Image sizes="(max-width: 768px) 100vw, 50vw" src="https://res.cloudinary.com/dunvmtqha/image/upload/Screenshot_2026-06-29_175639_juo51o.png" alt="Our Vision" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
+                  <Image sizes="(max-width: 768px) 100vw, 50vw" src="https://res.cloudinary.com/dunvmtqha/image/upload/a6c8d216-ee3e-41d3-a4bb-219a28dc837d_sxsvys.jpg" alt="Our Vision" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
                 </div>
               </div>
             </div>
@@ -216,7 +216,7 @@ export default function AboutPage() {
               </div>
               <div className="w-full md:w-1/2">
                 <div className="relative rounded-[1.5rem] md:rounded-[3rem] overflow-hidden shadow-2xl aspect-[4/3] group border-4 md:border-[8px] border-white/50">
-                  <Image sizes="(max-width: 768px) 100vw, 50vw" src="https://res.cloudinary.com/dunvmtqha/image/upload/Screenshot_2026-06-29_175830_rdjbw0.png" alt="Unwavering Integrity" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
+                  <Image sizes="(max-width: 768px) 100vw, 50vw" src="https://res.cloudinary.com/dunvmtqha/image/upload/68b6d596-5d6f-455d-ad02-1009710fd6ee_ezjbwn.jpg" alt="Unwavering Integrity" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
                 </div>
               </div>
             </div>

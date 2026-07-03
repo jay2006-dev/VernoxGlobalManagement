@@ -41,7 +41,7 @@ export function AboutPreview() {
           >
             <div className="aspect-[4/5] rounded-3xl overflow-hidden relative border border-border shadow-2xl">
               <div className="absolute inset-0 bg-dark/10 mix-blend-multiply z-10 transition-colors duration-500 hover:bg-dark/0" />
-              <img src="https://res.cloudinary.com/dunvmtqha/image/upload/Screenshot_2026-06-29_060218_jr5nr4.png" alt="Corporate Team" className="absolute inset-0 w-full h-full object-cover" />
+              <img src="https://res.cloudinary.com/dunvmtqha/image/upload/8b0d5e06-6406-430c-b32e-f004ac93be22_xl6uvx.jpg" alt="Corporate Team" className="absolute inset-0 w-full h-full object-cover" />
             </div>
             
             <div className="absolute -bottom-8 -right-8 bg-white p-8 rounded-3xl shadow-2xl border border-gray-100 hidden md:block backdrop-blur-xl bg-white/90">

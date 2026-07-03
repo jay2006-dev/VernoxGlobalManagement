@@ -1,0 +1,808 @@
+You are an award-winning Senior Product Designer and Staff Frontend Engineer.
+
+Your task is to build a premium, enterprise-level corporate website for a company called
+
+Vornex Global Organization
+
+The company operates in Sales, Marketing, Business Development, Customer Acquisition, Leadership Development, Business Consulting and Market Expansion.
+
+The website should look comparable to Deloitte, Accenture, McKinsey, EY, IBM Consulting, and PwC.
+
+DO NOT make it look like a startup landing page.
+
+Instead, make it feel like a Fortune 500 consulting company.
+
+========================================================
+
+TECH STACK
+
+========================================================
+
+Use
+
+• Next.js 15 App Router
+• TypeScript
+• Tailwind CSS v4
+• shadcn/ui
+• Framer Motion
+• Lucide React
+• React Hook Form
+• Zod
+• Embla Carousel
+• next-themes
+• next/font
+
+Use Server Components wherever possible.
+
+Use Client Components only when required.
+
+Write production-ready code.
+
+========================================================
+
+DESIGN LANGUAGE
+
+========================================================
+
+Style
+
+Premium
+Corporate
+Modern
+Luxury
+Minimal
+
+Large whitespace
+
+Smooth animations
+
+Rounded corners
+
+Soft shadows
+
+Glassmorphism navigation
+
+Beautiful gradients
+
+Excellent typography
+
+Responsive
+
+Fast
+
+SEO optimized
+
+Accessibility compliant
+
+========================================================
+
+COLOR PALETTE
+
+========================================================
+
+Primary
+#0B1F3A
+
+Secondary
+#0056D2
+
+Accent
+#00C2A8
+
+Background
+#F8FAFC
+
+Dark
+#111827
+
+Text
+#374151
+
+Border
+#E5E7EB
+
+========================================================
+
+TYPOGRAPHY
+
+========================================================
+
+Headings
+
+Poppins
+
+Body
+
+Inter
+
+Numbers
+
+Space Grotesk
+
+========================================================
+
+WEBSITE STRUCTURE
+
+========================================================
+
+/
+
+Home
+
+/About
+
+/Services
+
+/Industries
+
+/Careers
+
+/Insights
+
+/Contact
+
+========================================================
+
+NAVBAR
+
+========================================================
+
+Transparent on top
+
+Glass effect
+
+Changes background after scroll
+
+Company logo on left
+
+Links
+
+Home
+
+About
+
+Services
+
+Industries
+
+Careers
+
+Insights
+
+Contact
+
+CTA button
+
+"Get Started"
+
+Sticky navigation
+
+Responsive mobile drawer
+
+========================================================
+
+HOME PAGE
+
+========================================================
+
+SECTION 1
+
+Hero
+
+Large full-screen hero
+
+Background
+
+Animated gradient
+
+OR
+
+Professional looping business video
+
+Dark overlay
+
+Heading
+
+Empowering Businesses Through Strategic Sales & Marketing Excellence
+
+Subheading
+
+Helping organizations accelerate growth through innovative marketing strategies, customer acquisition, leadership development, and business consulting.
+
+Buttons
+
+Get Started
+
+Learn More
+
+Right side
+
+Beautiful business illustration or corporate image
+
+Animate everything using Framer Motion
+
+========================================================
+
+SECTION 2
+
+Trusted Companies
+
+Animated logo marquee
+
+Placeholder logos
+
+========================================================
+
+SECTION 3
+
+About Preview
+
+Left
+
+Professional image
+
+Right
+
+Who We Are
+
+Short description
+
+Features
+
+Customer First
+
+Innovation
+
+Integrity
+
+Growth
+
+CTA
+
+Learn More
+
+========================================================
+
+SECTION 4
+
+Services
+
+Create six premium cards
+
+Sales Solutions
+
+Business Consulting
+
+Brand Promotion
+
+Customer Acquisition
+
+Leadership Development
+
+Market Expansion
+
+Hover animation
+
+Lift
+
+Shadow
+
+Gradient border
+
+Icon
+
+Description
+
+Learn More button
+
+========================================================
+
+SECTION 5
+
+Why Choose Us
+
+Two-column layout
+
+Professional image
+
+Checklist
+
+Experienced Team
+
+Client-Centric
+
+Performance Driven
+
+Innovative Solutions
+
+Global Standards
+
+========================================================
+
+SECTION 6
+
+Industries
+
+Responsive grid
+
+Retail
+
+Technology
+
+Healthcare
+
+Education
+
+Banking
+
+Telecom
+
+FMCG
+
+Real Estate
+
+Each with premium icon
+
+========================================================
+
+SECTION 7
+
+Our Process
+
+Timeline
+
+Consultation
+
+↓
+
+Strategy
+
+↓
+
+Execution
+
+↓
+
+Growth
+
+Animated connectors
+
+========================================================
+
+SECTION 8
+
+Statistics
+
+Animated counters
+
+20+
+
+Business Partners
+
+500+
+
+Projects
+
+15+
+
+Industries
+
+95%
+
+Client Satisfaction
+
+========================================================
+
+SECTION 9
+
+Testimonials
+
+Embla Carousel
+
+Beautiful cards
+
+5-star ratings
+
+Company logos
+
+========================================================
+
+SECTION 10
+
+CTA
+
+Gradient background
+
+Ready to Grow Your Business?
+
+Button
+
+Contact Us
+
+========================================================
+
+FOOTER
+
+========================================================
+
+Logo
+
+Quick Links
+
+Services
+
+Newsletter
+
+Contact
+
+Social Icons
+
+Copyright
+
+========================================================
+
+ABOUT PAGE
+
+========================================================
+
+Hero
+
+Company Story
+
+Mission
+
+Vision
+
+Core Values
+
+Timeline
+
+Leadership Team
+
+Global Presence
+
+CTA
+
+========================================================
+
+SERVICES PAGE
+
+========================================================
+
+Hero
+
+Grid
+
+Detailed Service Sections
+
+Benefits
+
+Work Process
+
+FAQ
+
+CTA
+
+========================================================
+
+INDUSTRIES PAGE
+
+========================================================
+
+Industry Cards
+
+Challenges
+
+Solutions
+
+Success Stories
+
+CTA
+
+========================================================
+
+CAREERS PAGE
+
+========================================================
+
+Hero
+
+Why Join Us
+
+Culture
+
+Benefits
+
+Growth Timeline
+
+Business Associate
+
+↓
+
+Corporate Trainer
+
+↓
+
+Team Leader
+
+↓
+
+Assistant Manager
+
+↓
+
+Branch Manager
+
+Job Openings
+
+Application Form
+
+========================================================
+
+INSIGHTS PAGE
+
+========================================================
+
+Modern blog layout
+
+Featured Article
+
+Cards
+
+Categories
+
+Search
+
+Newsletter
+
+========================================================
+
+CONTACT PAGE
+
+========================================================
+
+Hero
+
+Contact Cards
+
+Address
+
+Phone
+
+Email
+
+Interactive Map
+
+Modern Contact Form
+
+FAQ
+
+========================================================
+
+COMPONENTS
+
+========================================================
+
+Navbar
+
+Footer
+
+Hero
+
+PageHero
+
+SectionTitle
+
+Button
+
+ServiceCard
+
+IndustryCard
+
+FeatureCard
+
+Counter
+
+Timeline
+
+Testimonials
+
+TestimonialCard
+
+FAQAccordion
+
+Newsletter
+
+CTA
+
+ContactForm
+
+Map
+
+BlogCard
+
+TeamCard
+
+StatsCard
+
+LogoMarquee
+
+AnimatedBackground
+
+ScrollReveal
+
+FloatingActionButton
+
+ScrollToTop
+
+ThemeToggle
+
+========================================================
+
+FOLDER STRUCTURE
+
+========================================================
+
+src
+
+app
+
+components
+
+components/common
+
+components/layout
+
+components/home
+
+components/about
+
+components/services
+
+components/ui
+
+hooks
+
+lib
+
+types
+
+styles
+
+public/images
+
+public/icons
+
+public/logos
+
+========================================================
+
+ANIMATIONS
+
+========================================================
+
+Framer Motion
+
+Fade Up
+
+Fade Left
+
+Fade Right
+
+Scale
+
+Stagger Children
+
+Hover Lift
+
+Counter Animation
+
+Parallax Hero
+
+Smooth Scroll
+
+Page Transitions
+
+========================================================
+
+RESPONSIVENESS
+
+========================================================
+
+Perfect on
+
+320px
+
+375px
+
+768px
+
+1024px
+
+1280px
+
+1536px
+
+========================================================
+
+SEO
+
+========================================================
+
+Generate
+
+Metadata
+
+OpenGraph
+
+Twitter Cards
+
+Structured Data
+
+robots.txt
+
+sitemap.xml
+
+Canonical URLs
+
+========================================================
+
+PERFORMANCE
+
+========================================================
+
+Lazy load images
+
+Use next/image
+
+Dynamic imports
+
+Server Components
+
+Optimize fonts
+
+Lighthouse Score above 95
+
+========================================================
+
+ACCESSIBILITY
+
+========================================================
+
+Keyboard navigation
+
+ARIA labels
+
+Semantic HTML
+
+Proper heading hierarchy
+
+Focus states
+
+========================================================
+
+EXTRAS
+
+========================================================
+
+Use subtle animated gradients.
+
+Include elegant section separators.
+
+Use premium business illustrations.
+
+Use Lucide icons consistently.
+
+Use reusable components only.
+
+Never duplicate UI.
+
+Maintain consistent spacing.
+
+Maintain a premium enterprise design system.
+
+Follow Atomic Design principles.
+
+The final result should look like a world-class consulting firm's website, suitable for a professional organization seeking credibility with corporate clients and potential employees.
+
+Populate the site with realistic placeholder copy that matches Vornex Global Organization's business profile, but clearly mark testimonials, client logos, statistics, and team members as sample/demo content unless real data is provided.

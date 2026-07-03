@@ -64,7 +64,7 @@ export function WhyChooseUs() {
           >
             <div className="aspect-square rounded-full bg-gradient-to-tr from-primary to-secondary opacity-10 blur-3xl absolute inset-0" />
             <div className="relative rounded-3xl overflow-hidden border border-border aspect-[4/3] bg-white shadow-xl">
-               <img src="https://res.cloudinary.com/dunvmtqha/image/upload/Screenshot_2026-06-29_064842_rknoml.png" alt="Corporate Team" className="absolute inset-0 w-full h-full object-cover" />
+               <img src="https://res.cloudinary.com/dunvmtqha/image/upload/6c097aae-cde4-4579-a2fb-519d4fde9ef1_pasc1p.jpg" alt="Corporate Team" className="absolute inset-0 w-full h-full object-cover" />
             </div>
             
             <div className="absolute -left-8 top-1/2 -translate-y-1/2 bg-white p-6 rounded-2xl border border-border shadow-2xl hidden md:block">
